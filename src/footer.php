@@ -4,7 +4,7 @@
 <body>
     <div class="footer">
         <p class="footer-element">Copyright 2025</p>
-        <?php include 'includes/newsletter.php';?>
+        <?php include "newsletter.php";?>
     </div>
 </body>
 
