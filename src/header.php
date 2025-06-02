@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 </head>
-<body>
 
+<body>
     <nav class="navbar navbar-expand-sm bg-light navbar-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./index.php"><img class="headerlogo" src="./images/logo2.png"
-                            alt="logo" style="width:80px;"></a>
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                
+                <a class="navbar-brand" href="./index.php"><img class="headerlogo" src="./images/logo2.png" alt="logo"
+                        style="width:80px;"></a>
                 <form class="d-flex">
                     <input class="form-control me-2" type="text" placeholder="Keresés">
                     <button class="btn btn-primary" type="button">Keresés</button>
@@ -17,7 +17,7 @@
             </div>
         </div>
     </nav>
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
         <div class="container-fluid">
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
@@ -40,7 +40,6 @@
             </div>
         </div>
     </nav>
-
 </body>
 
 </html>
