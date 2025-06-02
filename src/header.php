@@ -8,7 +8,7 @@
     <nav class="navbar navbar-expand-sm bg-light navbar-light">
         <div class="container-fluid">
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <a class="navbar-brand" href="./index.php"><img class="headerlogo" src="./images/logo2.png" alt="logo"
+                <a class="navbar-brand" href="./index.php"><img class="headerlogo" src="../public/images/logo2.png" alt="logo"
                         style="width:80px;"></a>
                 <form class="d-flex">
                     <input class="form-control me-2" type="text" placeholder="Keresés">

@@ -1,6 +1,11 @@
-<!DOCTYPE html>
-
-<div class="newsletter footer-element">
-    <input type="text" name="newsletter-email" id="newsletter-email" placeholder="Iratkozz fel hírlevelünkre!">
-    <button class="btn btn-primary" type="submit">Feliratkozom!</button>
-</div>
+<form action="../src/newsletteraction.php" method="post">
+    <div class="row">
+        <div class="col">
+            <input type="email" class="form-control" id="email" placeholder="Iratkozz fel a hírlevelünkre!" name="email"
+                required>
+        </div>
+        <div class="col">
+            <button type="submit" class="btn btn-primary">Feliratkozom!</button>
+        </div>
+    </div>
+</form>
