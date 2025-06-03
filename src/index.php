@@ -7,9 +7,9 @@
 
 <body>
     <?php include '../src/header.php'; ?>
+    <?php include '../src/footer.php'; ?>
     content<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     content
-    <?php include '../src/footer.php'; ?>
 </body>
 
 </html>

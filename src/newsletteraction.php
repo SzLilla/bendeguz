@@ -7,6 +7,7 @@
 
 <body>
     <?php include '../src/header.php'; ?>
+    <?php include '../src/footer.php'; ?>
     <?php include 'connect.php'; ?>
 
     <?php
@@ -23,8 +24,6 @@
 
     $conn->close();
     ?>
-
-    <?php include '../src/footer.php'; ?>
 </body>
 
 </html>
