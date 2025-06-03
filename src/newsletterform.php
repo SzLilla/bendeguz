@@ -1,4 +1,4 @@
-<form action="../src/newsletteraction.php" method="post">
+<form action="<?php echo htmlspecialchars("../src/newsletteraction.php");?>" method="post">
     <div class="row">
         <div class="col">
             <input type="email" class="form-control" id="email" placeholder="Iratkozz fel a hírlevelünkre!" name="email"
