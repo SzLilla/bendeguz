@@ -1,4 +1,5 @@
-<form action="<?php echo htmlspecialchars("../src/newsletteraction.php");?>" method="post">
+// TODO abs link, for header and footer link and logo image...
+<form action="<?php echo htmlspecialchars("../src/action/newsletteraction.php");?>" method="post"> 
     <div class="row">
         <div class="col">
             <input type="email" class="form-control" id="email" placeholder="Iratkozz fel a hírlevelünkre!" name="email"

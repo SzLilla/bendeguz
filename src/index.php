@@ -8,61 +8,30 @@
 <body>
     <div class="d-flex flex-column min-vh-100">
         <?php include '../src/header.php'; ?>
+        <?php include '../src/action/connect.php'; ?>
+        <?php include '../src/action/getcategories.php'; ?>
 
         <div class="container-fluid mt-3">
             <div class="row">
-                <div class="col-8 p-3 text-white">
+                <div class="col-8">
                     <div class="row">
-                        <div class="col p-3 text-white">
-                            <div class="card">
-                                <img class="card-img-top" src="../public/images/cardimages/uszopelenka.jpg"
-                                    alt="Card image">
-                                <div class="card-body">
-                                    <h4 class="card-title">Úszópelenkák</h4>
-                                    <p class="card-text">Some example text.</p>
-                                    <a href="#" class="btn btn-primary">Tovább</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col p-3 text-white">
-                            <div class="card">
-                                <img class="card-img-top" src="../public/images/cardimages/uszopelenka.jpg"
-                                    alt="Card image">
-                                <div class="card-body">
-                                    <h4 class="card-title">Úszópelenkák</h4>
-                                    <p class="card-text">Some example text.</p>
-                                    <a href="#" class="btn btn-primary">Tovább</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col p-3 text-white">
-                            <div class="card">
-                                <img class="card-img-top" src="../public/images/cardimages/uszopelenka.jpg"
-                                    alt="Card image">
-                                <div class="card-body">
-                                    <h4 class="card-title">Úszópelenkák</h4>
-                                    <p class="card-text">Some example text.</p>
-                                    <a href="#" class="btn btn-primary">Tovább</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col p-3 text-white">
-                            <div class="card">
-                                <img class="card-img-top" src="../public/images/cardimages/uszopelenka.jpg"
-                                    alt="Card image">
-                                <div class="card-body">
-                                    <h4 class="card-title">Úszópelenkák</h4>
-                                    <p class="card-text">Some example text.</p>
-                                    <a href="#" class="btn btn-primary">Tovább</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col p-3 bg-primary text-white">col1</div>
-                        <div class="col p-3 bg-primary text-white">col2</div>
-                        <div class="col p-3 bg-primary text-white">col3</div>
-                        <div class="col p-3 bg-primary text-white">col4</div>
+                        <?php
+                        if ($result->num_rows > 0) {
+                            while ($row = $result->fetch_assoc()) {
+                                echo '<div class="col-md-3 mb-4">';
+                                echo '  <div class="card">';
+                                echo '    <img src="' . htmlspecialchars($row["img_url"]) . '" class="card-img-top" alt="' . htmlspecialchars($row["name"]) . '">';
+                                echo '    <div class="card-body">';
+                                echo '      <h5 class="card-title">' . htmlspecialchars($row["name"]) . '</h5>';
+                                echo '      <a href="#" class="btn btn-primary">Tovább</a>';
+                                echo '    </div>';
+                                echo '  </div>';
+                                echo '</div>';
+                            }
+                        } else {
+                            echo '<p>Nincsenek kategóriák.</p>';
+                        }
+                        ?>
                     </div>
                 </div>
                 <div class="col-4 p-3 bg-dark text-white">.col</div>
