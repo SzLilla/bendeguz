@@ -2,12 +2,12 @@
 <html>
 
 <head>
-    <?php include '../commonheader.php'; ?>
+    <?php include './commonheader.php'; ?>
 </head>
 
 <body>
     <div class="d-flex flex-column min-vh-100">
-        <?php include '../header.php'; ?>
+        <?php include './header.php'; ?>
 
         <?php include './connect.php'; ?>
 
@@ -25,7 +25,7 @@
 
         $conn->close();
         ?>
-        <?php include '../footer.php'; ?>
+        <?php include './footer.php'; ?>
     </div>
 </body>
 

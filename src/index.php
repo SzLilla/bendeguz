@@ -2,14 +2,14 @@
 <html>
 
 <head>
-    <?php include '../src/commonheader.php'; ?>
+    <?php include './commonheader.php'; ?>
 </head>
 
 <body>
     <div class="d-flex flex-column min-vh-100">
-        <?php include '../src/header.php'; ?>
-        <?php include '../src/action/connect.php'; ?>
-        <?php include '../src/action/getcategories.php'; ?>
+        <?php include './header.php'; ?>
+        <?php include './connect.php'; ?>
+        <?php include './getcategories.php'; ?>
 
         <div class="container-fluid mt-3">
             <div class="row">
@@ -38,7 +38,7 @@
             </div>
         </div>
 
-        <?php include '../src/footer.php'; ?>
+        <?php include './footer.php'; ?>
     </div>
 
 </body>
