@@ -1,4 +1,4 @@
-<div class="d-flex justify-content-between bg-dark text-white fixed-bottom">
+<div class="d-flex justify-content-between bg-dark text-white mt-auto">
     <div class="p-2">
         <h5> Vásárlóknak</h5>
         <ul class="list-unstyled text-white">

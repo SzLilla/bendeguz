@@ -31,10 +31,10 @@
                             <li><a class="dropdown-item" href="#">Babaápolás</a></li>
                         </ul>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Rólunk</a>
+                        <a class="nav-link" href="./informacio-partnereknek.php">Információ partnereknek</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Kapcsolat</a>
+                        <a class="nav-link" href="./kapcsolat.php">Kapcsolat</a>
                     </li>
                 </ul>
             </div>
