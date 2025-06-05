@@ -8,7 +8,7 @@
     <nav class="navbar navbar-expand-sm bg-light navbar-light">
         <div class="container-fluid">
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <a class="navbar-brand" href="<?php echo BASE_URL; ?>/src/index.php"><img class="headerlogo" src="<?php echo BASE_URL; ?>/public/images/logo2.png" alt="logo"
+                <a class="navbar-brand" href="<?php echo BASE_URL; ?>/public_html/src/index.php"><img class="headerlogo" src="<?php echo BASE_URL; ?>/public_html/public/images/logo2.png" alt="logo"
                         style="width:80px;"></a>
                 <form class="d-flex">
                     <input class="form-control me-2" type="text" placeholder="Keresés">
@@ -31,10 +31,10 @@
                             <li><a class="dropdown-item" href="#">Babaápolás</a></li>
                         </ul>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo BASE_URL; ?>/src/informacio-partnereknek.php">Információ partnereknek</a>
+                        <a class="nav-link" href="<?php echo BASE_URL; ?>/public_html/src/informacio-partnereknek.php">Információ partnereknek</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo BASE_URL; ?>/src/kapcsolat.php">Kapcsolat</a>
+                        <a class="nav-link" href="<?php echo BASE_URL; ?>/public_html/src/kapcsolat.php">Kapcsolat</a>
                     </li>
                 </ul>
             </div>
