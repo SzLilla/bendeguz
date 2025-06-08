@@ -5,5 +5,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <?php
-define("BASE_URL", "http://localhost"); // "https://www.bendeguz.org"); //TODO
+// define("BASE_URL", "http://localhost"); //TODO
+define("BASE_URL", "https://www.bendeguz.org"); //TODO
 ?> 
