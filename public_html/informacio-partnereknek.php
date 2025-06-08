@@ -2,12 +2,12 @@
 <html>
 
 <head>
-    <?php include './commonheader.php'; ?>
+    <?php include '/commonheader.php'; ?>
 </head>
 
 <body>
     <div class="d-flex flex-column min-vh-100">
-        <?php include './header.php'; ?>
+        <?php include '/header.php'; ?>
 
         <h3>Információ partnereknek</h3>
         <h4>Hirdetési Lehetőség Webshopoknak: Csak a megvalósult vásárlás után fizet!</h4>
@@ -29,6 +29,6 @@
 
         <h4>Ne hagyja ki a lehetőséget, csatlakozzon most!</h4>
 
-        <?php include './footer.php'; ?>
+        <?php include '/footer.php'; ?>
     </div>
 </body>
