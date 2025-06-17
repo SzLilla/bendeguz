@@ -16,3 +16,5 @@
     <div class="p-2"><?php include "newsletterform.php"; ?></div>
     <div class="p-2">Copyright 2025</div>
 </div>
+
+$conn->close();
