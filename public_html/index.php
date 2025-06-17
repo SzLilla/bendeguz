@@ -34,7 +34,7 @@
                         ?>
                     </div>
                 </div>
-                <div class="col-4 p-3 bg-dark text-white">.col</div>
+                <div class="col-4 p-3 bg-dark text-white">...</div>
             </div>
         </div>
 

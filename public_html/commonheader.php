@@ -7,3 +7,5 @@
 <?php
 define("BASE_URL", "http://localhost"); //TODO "https://lillao4.sg-host.com"); //TODO
 ?> 
+
+<link rel="stylesheet" href="./public/css/bootstrap.css">
