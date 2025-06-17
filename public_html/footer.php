@@ -2,9 +2,9 @@
     <div class="p-2">
         <h5> Vásárlóknak</h5>
         <ul class="list-unstyled text-white">
-            <li><a class="nav-link" href=#>ÁSZF</a></li>
-            <li><a class="nav-link" href=#>Adatkezelési Tájékoztató</a></li>
-            <li><a class="nav-link" href=#>Cookie tájékoztató</a></li>
+            <li><a class="nav-link" href=./aszf.php>ÁSZF</a></li>
+            <li><a class="nav-link" href=./adatkezelesi-tajekoztato.php>Adatkezelési Tájékoztató</a></li>
+            <li><a class="nav-link" href=./cookies.php>Cookie tájékoztató</a></li>
         </ul>
     </div>
     <div class="p-2">
