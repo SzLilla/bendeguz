@@ -10,7 +10,7 @@
     <div class="p-2">
         <h5>Webshopoknak</h5>
         <ul class="list-unstyled text-white">
-            <li><a class="nav-link" href=#>Információ partnereknek</a></li>
+            <li><a class="nav-link" href=./informacio-partnereknek.php>Információ partnereknek</a></li>
         </ul>
     </div>
     <div class="p-2"><?php include "newsletterform.php"; ?></div>
