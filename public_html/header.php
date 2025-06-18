@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-</head>
-
-<body>
     <nav class="navbar navbar-expand-sm bg-light navbar-light">
         <div class="container-fluid">
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -40,6 +34,3 @@
             </div>
         </div>
     </nav>
-</body>
-
-</html>
