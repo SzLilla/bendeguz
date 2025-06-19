@@ -5,6 +5,6 @@ FROM categories
 WHERE parent_category IS NULL
 ORDER BY name ASC";
 $result = $conn->query($sql);
-$conn->close();
+
 
 ?>

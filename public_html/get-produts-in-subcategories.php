@@ -26,7 +26,7 @@ all_related AS (
     SELECT * FROM descendants
 )
 SELECT 
-    p.id AS product_id,
+    p.id AS id,
     p.title AS name,
     p.short_description,
     p.long_description,
@@ -40,6 +40,6 @@ $stmt = $conn->prepare($sql);
 $stmt->bind_param("ii", $id, $id);
 $stmt->execute();
 $result_products = $stmt->get_result();
-$conn->close();
+
 ?>
 
