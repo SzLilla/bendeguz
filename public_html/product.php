@@ -30,16 +30,34 @@
                                         <tr>
                                             <th>Webshop</th>
                                             <th>Ár</th>
-                                            <th>Akciós ár</th>
+                                            <th></th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <?php while ($row = $result_prices->fetch_assoc()): ?>
                                             <tr>
                                                 <td><?= htmlspecialchars($row['name']) ?></td>
-                                                <td><?= htmlspecialchars($row['normal_price']) ?> Ft</td>
-                                                <td><?= htmlspecialchars($row['discount_price']) ?> Ft</td>
+
                                                 <!-- TODO currency -->
+
+                                                <td>
+                                                    <?php if (!empty($row['discount_price'])): ?>
+                                                        <span
+                                                            class="text-muted text-decoration-line-through"><?= htmlspecialchars($row['normal_price']) ?>
+                                                            Ft</span>
+                                                        <span
+                                                            class="text-danger ms-2 fw-bold"><?= htmlspecialchars($row['discount_price']) ?>
+                                                            Ft</span>
+                                                    <?php else: ?>
+                                                        <?= htmlspecialchars($row['normal_price']) ?> Ft
+                                                    <?php endif; ?>
+                                                </td>
+                                                <td>
+                                                    <?php if (!empty($row['url'])): ?>
+                                                        <a href="<?= $row['url'] ?>" class="btn btn-sm btn-primary">Részletek</a>
+                                                    <?php endif; ?>
+                                                </td>
+
                                             </tr>
                                         <?php endwhile; ?>
                                     </tbody>
